@@ -1,6 +1,6 @@
 import express from "express";
 import axios from "axios";
-const config = require("./config.json");
+import config from "../config.mjs";
 
 const router = express.Router();
 const ROOT_URL = config.rootUrl;
